@@ -75,6 +75,84 @@
             "tags": [
                 "foo"
             ]
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.1890625,
+            "y": 0.6879271070615034,
+            "uniqueID": 1744327219304,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.26484375,
+            "y": 0.19166666666666665,
+            "uniqueID": 1744327237618,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Rotate",
+            "name": "Rotate",
+            "x": 0.290625,
+            "y": 0.2916666666666667,
+            "uniqueID": 1744327248208,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
+                    "name": "x-axis degrees",
+                    "ioValue": 0
+                },
+                {
+                    "name": "y-axis degrees",
+                    "ioValue": 0
+                },
+                {
+                    "name": "z-axis degrees",
+                    "ioValue": 0
+                }
+            ],
+            "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
         }
     ],
     "allConnectors": [
