@@ -13,12 +13,48 @@
             "name": "Output",
             "x": 0.98,
             "y": 0.5,
-            "uniqueID": 1744281404174,
-            "ioValues": [],
+            "uniqueID": 1744281486583,
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1744281510761
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
+        },
+        {
+            "atomType": "Text",
+            "name": "Text",
+            "x": 0.21940104166666666,
+            "y": 0.46438746438746437,
+            "uniqueID": 1744281510761,
+            "ioValues": [],
+            "description": "Creates a new text sketch.",
+            "fontFamily": "OPEN_SANS",
+            "selectedFontIndex": 6
+        },
+        {
+            "atomType": "Import",
+            "name": "Import",
+            "x": 0.19140625000000003,
+            "y": 0.1638176638176638,
+            "uniqueID": 1744281805974,
+            "ioValues": [],
+            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+            "fileName": "Router Clamp.step",
+            "type": "STEP",
+            "SVGwidth": 10
         }
     ],
-    "allConnectors": [],
+    "allConnectors": [
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1744281510761,
+            "ap2ID": 1744281486583
+        }
+    ],
     "unitsKey": "Inches",
     "fileTypeVersion": 1,
     "compiledBom": {},
