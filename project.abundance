@@ -32,8 +32,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.2877604166666667,
-            "y": 0.25641025641025644,
+            "x": 0.056640625,
+            "y": 0.17094017094017094,
             "uniqueID": 1744281984994,
             "ioValues": [
                 {
@@ -42,10 +42,51 @@
                 }
             ],
             "description": "Creates a new circle."
+        },
+        {
+            "atomType": "ExtractTag",
+            "name": "Extract Tag",
+            "x": 0.20729166666666668,
+            "y": 0.4566210045662101,
+            "uniqueID": 1744326915893,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                }
+            ],
+            "description": "Extracts geometry containing the specified tag.",
+            "tag": "Select Tag",
+            "tagIndex": 0
+        },
+        {
+            "atomType": "Tag",
+            "name": "foo",
+            "x": 0.09765625,
+            "y": 0.4672364672364673,
+            "uniqueID": 1744326934711,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                }
+            ],
+            "description": "Tags geometry so that it can be extracted later.",
+            "tags": [
+                "foo"
+            ]
         }
     ],
-    "allConnectors": [],
-    "unitsKey": "Inches",
+    "allConnectors": [
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1744326934711,
+            "ap2ID": 1744326915893
+        }
+    ],
+    "unitsKey": "MM",
     "fileTypeVersion": 1,
     "compiledBom": {},
     "filetypeVersion": 1
