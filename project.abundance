@@ -25,44 +25,6 @@
         {
             "atomType": "Import",
             "name": "Import",
-            "x": 0.2994791666666667,
-            "y": 0.5527065527065527,
-            "uniqueID": 1744281805974,
-            "ioValues": [],
-            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": "Router Clamp.step",
-            "type": "STEP",
-            "SVGwidth": 10
-        },
-        {
-            "atomType": "Move",
-            "name": "Move",
-            "x": 0.39166666666666666,
-            "y": 0.7305936073059361,
-            "uniqueID": 1744327219304,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
-                {
-                    "name": "xDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 0
-                }
-            ],
-            "description": "Moves a shape laterally in X, Y, Z."
-        },
-        {
-            "atomType": "Import",
-            "name": "Import",
             "x": 0.18203125,
             "y": 0.4212328767123288,
             "uniqueID": 1744342181751,
@@ -76,16 +38,9 @@
     "allConnectors": [
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1744281805974,
-            "ap2ID": 1744327219304
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
-            "ap1ID": 1744327219304,
+            "ap1ID": 1744342181751,
             "ap2ID": 1744281486583
         }
     ],
