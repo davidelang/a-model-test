@@ -14,7 +14,12 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1744281486583,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": ""
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -30,57 +35,10 @@
             "SVGwidth": 10
         },
         {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.056640625,
-            "y": 0.17094017094017094,
-            "uniqueID": 1744281984994,
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 10
-                }
-            ],
-            "description": "Creates a new circle."
-        },
-        {
-            "atomType": "ExtractTag",
-            "name": "Extract Tag",
-            "x": 0.20729166666666668,
-            "y": 0.4566210045662101,
-            "uniqueID": 1744326915893,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                }
-            ],
-            "description": "Extracts geometry containing the specified tag.",
-            "tag": "Select Tag",
-            "tagIndex": 0
-        },
-        {
-            "atomType": "Tag",
-            "name": "foo",
-            "x": 0.09765625,
-            "y": 0.4672364672364673,
-            "uniqueID": 1744326934711,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                }
-            ],
-            "description": "Tags geometry so that it can be extracted later.",
-            "tags": [
-                "foo"
-            ]
-        },
-        {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.1890625,
-            "y": 0.6879271070615034,
+            "x": 0.39166666666666666,
+            "y": 0.7305936073059361,
             "uniqueID": 1744327219304,
             "ioValues": [
                 {
@@ -101,58 +59,6 @@
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
-        },
-        {
-            "atomType": "Move",
-            "name": "Move",
-            "x": 0.26484375,
-            "y": 0.19166666666666665,
-            "uniqueID": 1744327237618,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
-                {
-                    "name": "xDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 0
-                }
-            ],
-            "description": "Moves a shape laterally in X, Y, Z."
-        },
-        {
-            "atomType": "Rotate",
-            "name": "Rotate",
-            "x": 0.290625,
-            "y": 0.2916666666666667,
-            "uniqueID": 1744327248208,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
-                {
-                    "name": "x-axis degrees",
-                    "ioValue": 0
-                },
-                {
-                    "name": "y-axis degrees",
-                    "ioValue": 0
-                },
-                {
-                    "name": "z-axis degrees",
-                    "ioValue": 0
-                }
-            ],
-            "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
         }
     ],
     "allConnectors": [
@@ -160,8 +66,15 @@
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
-            "ap1ID": 1744326934711,
-            "ap2ID": 1744326915893
+            "ap1ID": 1744281805974,
+            "ap2ID": 1744327219304
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1744327219304,
+            "ap2ID": 1744281486583
         }
     ],
     "unitsKey": "MM",
