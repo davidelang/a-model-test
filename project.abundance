@@ -68,7 +68,7 @@
             "uniqueID": 1744342181751,
             "ioValues": [],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": null,
+            "fileName": "cut list.svg",
             "type": "SVG",
             "SVGwidth": 10
         }
